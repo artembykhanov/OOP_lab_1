@@ -3,7 +3,6 @@ public class Customer {
     public String address;
     public String dob;
 
-
     public Customer(String name, String address, String dob) {
         this.name = name;
         this.address = address;
@@ -11,7 +10,7 @@ public class Customer {
     }
 
     public void owns(Debit_Card debitCard, Account account) {
-        System.out.println(name + " - Владелец карты: " + debitCard.getOwnnedBy() + " имеет карту с номером: " + debitCard.getCardNo());
-        System.out.println(name + " - Владелец аккаунта: " + account.getOwner() + " с типом пользователя: " + account.getType());
+        System.out.println(name + " - Владелец карты: " + debitCard.ownnedBy + " имеет карту с номером: " + debitCard.cardNo);
+        System.out.println(name + " - Владелец аккаунта: " + account.owner + " с типом пользователя: " + account.type);
     }
 }

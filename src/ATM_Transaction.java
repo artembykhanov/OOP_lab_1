@@ -9,31 +9,9 @@ public class ATM_Transaction {
         this.type = type;
     }
 
-    public Integer getTransactionId() {
-        return transactionId;
-    }
+    public static void update(){
 
-    public void setTransactionId(Integer transactionId) {
-        this.transactionId = transactionId;
-    }
-
-    public String getDate() {
-        return date;
-    }
-
-    public void setDate(String date) {
-        this.date = date;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
-    public void update(){
+        //не знаю что сюда делать апдейт даты, id и type????
 
     }
 }
